@@ -1,8 +1,8 @@
 #include "factors.h"
 
-extern FILE *fptr;
 int main(int argc, char** argv)
 {
+FILE *fptr;
 size_t len;
 ssize_t read;
 char *countent;
