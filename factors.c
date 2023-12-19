@@ -11,7 +11,7 @@ while (true)
 if (numb % i == 0)
 {
 rem = numb / i;
-printf("%d=%d*%d\n", numb, i, rem);
+printf("%d=%d*%d\n", numb, rem, i);
 break;
 }
 i++;
