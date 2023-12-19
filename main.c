@@ -1,5 +1,6 @@
 #include "factors.h"
 
+extern FILE *fptr;
 int main(int argc, char** argv)
 {
 size_t len;
@@ -13,7 +14,7 @@ if (argc > 2)
 fptr = fopen(argv[1], "r");
 if (!fptr)
     failure(2);
-while (read=(getline(&countent, &len, fptr) != -1))
+while ((read=(getline(&countent, &len, fptr)) != -1))
 {
     numb = atoi(strtok(countent, "\n"));
     factors(numb);

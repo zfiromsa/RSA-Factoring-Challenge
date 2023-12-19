@@ -2,7 +2,7 @@
 #define FACTORS_H
 
 
-extern FILE *fptr;
+
 
 #include <stdio.h>
 #include <string.h>
