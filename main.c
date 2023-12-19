@@ -12,7 +12,6 @@ read = numb = 0;
 if (argc > 2)
 {
     fprintf(stderr, "Pass the address of the file\n");
-    close(fptr);
     return (1);
 }
 fptr = fopen(argv[1], "r");
