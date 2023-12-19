@@ -2,24 +2,16 @@
 
 void factors(int numb)
 {
-	int rem, i;
+	int i;
 
-	rem = 0;
-	i = 2;
-	while (true)
+	for (i = 2; i * i <= numb; i++)
 	{
-		if (i >= numb)
-		{
-			printf("\n");
-			break;
-		}
 		if (numb % i == 0)
 		{
-			rem = numb / i;
-			printf("%d=%d*%d\n", numb, rem, i);
+			printf("%d=%d*%d\n", numb, numb / i, i);
 			break;
 		}
-		i++;
 	}
 }
+
 
