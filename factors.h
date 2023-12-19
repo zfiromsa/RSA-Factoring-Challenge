@@ -10,7 +10,6 @@
 #include <stdbool.h>
 
 void factors(int numb);
-void failure(int i);
 
 #endif
 
