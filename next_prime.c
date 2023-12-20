@@ -1,6 +1,6 @@
 #include "factors.h"
 
-int next_prime(void)
+void next_prime(void)
 {
 while (true)
 {

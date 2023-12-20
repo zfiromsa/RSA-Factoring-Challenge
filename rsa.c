@@ -10,8 +10,10 @@ void factors(int numb)
 		{
             q = numb / p;
             if (check_prime(q))
-			printf("%d=%d*%d\n", numb, numb / p, q);
+			{
+			printf("%d=%d*%d\n", numb, p, q);
 			break;
+			}
 		}
         next_prime();
 	}

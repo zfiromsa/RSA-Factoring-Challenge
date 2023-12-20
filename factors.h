@@ -11,7 +11,7 @@ extern int p, q;
 
 void factors(int numb);
 bool check_prime(int num);
-int next_prime(void);
+void next_prime(void);
 
 #endif
 
