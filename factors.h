@@ -10,6 +10,7 @@ extern int p, q;
 #include <stdbool.h>
 
 void factors(int numb);
+void rsa(int numb);
 bool check_prime(int num);
 void next_prime(void);
 

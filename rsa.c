@@ -2,7 +2,7 @@
 
 int p = 2;
 int q = 3;
-void factors(int numb)
+void rsa(int numb)
 {
 	while (p * p <= numb)
 	{
