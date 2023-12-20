@@ -2,24 +2,9 @@
 
 void next_prime(void)
 {
-while (true)
+do
 {
-    int i;
-
-    i = 2;
-    while (true)
-    {
-        if (p % i == 0)
-        {
-            break;
-        }
-        i++;
-    }
-    if (i > p / i )
-    {
-        break;      
-    }
     p++;
-}
+} while (!check_prime(p));
 }
 

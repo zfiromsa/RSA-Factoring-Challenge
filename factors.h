@@ -2,7 +2,8 @@
 #define FACTORS_H
 
 
-extern int p, q;
+extern int p;
+extern int q;
 
 #include <stdio.h>
 #include <string.h>

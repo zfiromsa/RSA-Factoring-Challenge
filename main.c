@@ -1,5 +1,8 @@
 #include "factors.h"
 
+int p = 2;
+int q = 3;
+
 int main(int argc, char** argv)
 {
 	FILE *fptr;

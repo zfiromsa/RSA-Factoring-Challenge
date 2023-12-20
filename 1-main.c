@@ -9,6 +9,7 @@ int main(int argc, char** argv)
 	int numb;
 
 	read = numb = 0;
+	countent = NULL;
 	if (argc < 2)
 	{
 		fprintf(stderr, "Pass the address of the file\n");
@@ -19,7 +20,7 @@ int main(int argc, char** argv)
 	{
 		fprintf(stderr, "Error: malloc failed\n");
 		fclose(fptr);
-    		return (1);
+    	return (1);
 	}
 	while ((read=(getline(&countent, &len, fptr)) != -1))
 	{
