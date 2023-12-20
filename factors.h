@@ -2,7 +2,7 @@
 #define FACTORS_H
 
 
-
+extern int p, q;
 
 #include <stdio.h>
 #include <string.h>
@@ -10,6 +10,8 @@
 #include <stdbool.h>
 
 void factors(int numb);
+bool check_prime(int num);
+int next_prime(void);
 
 #endif
 
